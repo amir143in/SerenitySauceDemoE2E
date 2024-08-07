@@ -1,0 +1,33 @@
+CONCLUSIONES - Hallazgos y Conclusiones del Ejercicio con Serenity BDD y JUnit4
+
+Hallazgos:
+1. Ejecución Satisfactoria de Pruebas:
+   - Todas las pruebas se ejecutaron correctamente utilizando el framework Serenity BDD con JUnit4 y Gradle.
+   - Los informes de prueba se generaron con éxito, proporcionando una visión detallada de los resultados de las pruebas.
+
+2. Facilidad de Uso:
+   - La integración de Serenity BDD con JUnit4 y Gradle resultó ser bastante sencilla.
+   - La documentación y la configuración del proyecto facilitaron la ejecución de las pruebas automatizadas.
+
+3. Informes Detallados:
+   - Serenity BDD proporciona informes visualmente atractivos y detallados, lo cual facilita la interpretación de los resultados.
+   - Los informes incluyen capturas de pantalla, lo que ayuda a identificar fácilmente cualquier problema visual durante la ejecución de las pruebas.
+
+4. Manejo de Esperas y Sincronización:
+   - Serenity BDD maneja eficientemente las esperas y sincronización, reduciendo la necesidad de codificar manualmente esperas explícitas.
+
+Conclusiones:
+
+1. Serenity BDD como Elección Ideal:
+   - Serenity BDD demostró ser una excelente herramienta para la automatización de pruebas, especialmente para proyectos que requieren informes detallados y fáciles de entender.
+
+2. Mejora Continua:
+   - Se recomienda revisar periódicamente las pruebas y los informes generados para identificar posibles mejoras en los scripts de prueba.
+   - Mantener actualizadas las dependencias y la configuración del proyecto para aprovechar las últimas características y mejoras de Serenity BDD y Gradle.
+
+3. Colaboración y Documentación:
+   - Fomentar la colaboración entre los equipos de desarrollo y pruebas para asegurar que las pruebas automatizadas cubran todos los escenarios críticos.
+   - Documentar los procedimientos y configuraciones utilizados para facilitar la incorporación de nuevos miembros al equipo.
+
+4. Pruebas Independientes y Repetibles:
+   - Asegurarse de que las pruebas sean independientes y repetibles para obtener resultados consistentes en diferentes ejecuciones.

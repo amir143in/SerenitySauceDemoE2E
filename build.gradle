@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id 'net.serenity-bdd.serenity-gradle-plugin' version '2.4.34'
+}
+
+group = 'org.automationserenity'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    testImplementation "net.serenity-bdd:serenity-core:4.1.20"
+    testImplementation "net.serenity-bdd:serenity-junit:4.1.20"
+    testImplementation "net.serenity-bdd:serenity-screenplay:4.1.20"
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.assertj:assertj-core:3.26.3"
+    testImplementation "ch.qos.logback:logback-classic:1.5.6"
+    testImplementation "org.slf4j:slf4j-api:2.0.13"
+    testImplementation "com.fasterxml.jackson.core:jackson-databind:2.17.2"
+}
+
+tasks.withType(ProcessResources).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+test.finalizedBy(aggregate)
